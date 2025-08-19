@@ -1,12 +1,83 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 Todo List App (React)
 
-Currently, two official plugins are available:
+This is a simple Todo List App I built while learning React.
+The goal of this project was to practice the core concepts of React such as:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Using useState for managing input and task lists
 
-## Expanding the ESLint configuration
+Handling form submissions and controlled components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Passing props between components
+
+Using useEffect to persist data in localStorage
+
+Building reusable components (TodoHeader & TodoTasks)
+
+Styling with CSS & Flexbox for clean layout
+
+## 🚀 Features
+
+Add new tasks
+
+Delete tasks
+
+Tasks are saved in localStorage (they remain after refresh)
+
+Responsive and styled with custom CSS
+
+Hover effects on buttons & icons for better UI
+
+## 🎯 Learning Experience
+
+This project helped me understand the fundamentals of React:
+
+How state and props work together
+
+The importance of immutability when updating arrays
+
+Why useEffect runs after rendering, and how to use it for side effects like saving data
+
+The difference between string state vs array state
+
+Debugging issues with localStorage and JSON parsing
+
+How to align UI elements properly using Flexbox (justify-content, align-items, and gap)
+
+It also taught me some best practices:
+
+Keep components small and reusable
+
+Pass functions as props to handle actions like delete
+
+Use map with key to render lists
+
+Use index-based delete logic to avoid issues with duplicate tasks
+
+## 📸 Screenshot
+
+Here’s what my Todo List App looks like:
+![Todo App Screenshot](public/images/Final%20ToDo%20App.png)
+
+## 🛠️ Technologies Used
+
+React (Vite or CRA depending on your setup)
+
+JavaScript (ES6+)
+
+CSS (Flexbox for layout)
+
+LocalStorage for persistence
+
+## 📚 What I Learned
+
+This project was my first hands-on React project.
+It gave me confidence in working with:
+
+React hooks
+
+Component structure
+
+Local storage persistence
+
+Debugging and improving UI/UX
